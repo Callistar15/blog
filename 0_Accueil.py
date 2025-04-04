@@ -1,4 +1,16 @@
 import streamlit as st
+import streamlit as st
+
+# Configuration du mot de passe
+PASSWORD = "clavi2025"  # 🔒 tu peux le personnaliser
+
+# Demande de mot de passe
+password_input = st.text_input("🔐 Entrez le mot de passe pour accéder à l'app :", type="password")
+
+if password_input != PASSWORD:
+    st.warning("Mot de passe incorrect ou manquant 🚫")
+    st.stop()
+
 import folium
 from streamlit_folium import st_folium
 
