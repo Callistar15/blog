@@ -12,7 +12,7 @@ st.subheader("🌍 Ma ville d’échange de août à décembre 2023")
 st.markdown("### 📸 Quelques images de l’aventure")
 
 # Dossier contenant les images JPEG
-image_dir = "images"
+image_dir = "Images"
 image_files = [f for f in os.listdir(image_dir) if f.lower().endswith((".jpg", ".jpeg"))]
 
 # Afficher les images par rangées de 3
