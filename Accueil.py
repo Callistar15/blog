@@ -31,4 +31,4 @@ map_data = st_folium(m, width=1000, height=600)
 if map_data and map_data.get("last_object_clicked_tooltip"):
     clicked = map_data["last_object_clicked_tooltip"]
     if clicked == "Singapour":
-        st.switch_page("pages/01_Singapour.py")
+        st.markdown("### 👉 [Découvrir Singapour](pages/01_Singapour.py)")
