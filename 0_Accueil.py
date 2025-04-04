@@ -3,10 +3,11 @@ import folium
 from streamlit_folium import st_folium
 
 st.set_page_config(layout="wide")
-st.title("Mon carnet de voyage 🌍")
+st.title("Mon carnet de voyage")
 
 st.markdown("### Clique sur un lieu pour explorer")
 
+# Lieux à afficher
 destinations = {
     "Singapour": {
         "lat": 1.3521,
@@ -14,6 +15,7 @@ destinations = {
     }
 }
 
+# Création de la carte
 m = folium.Map(location=[10, 20], zoom_start=2)
 
 for nom, info in destinations.items():
@@ -23,6 +25,10 @@ for nom, info in destinations.items():
         tooltip=nom
     ).add_to(m)
 
-st_folium(m, width=1000, height=600)
+# Affichage de la carte et détection clic
+map_data = st_folium(m, width=1000, height=600)
 
-st.markdown("🔍 Ensuite, clique dans le menu à gauche pour découvrir chaque destination !")
+if map_data and map_data.get("last_object_clicked_tooltip"):
+    clicked = map_data["last_object_clicked_tooltip"]
+    if clicked == "Singapour":
+        st.switch_page("pages/1_Singapour.py")
