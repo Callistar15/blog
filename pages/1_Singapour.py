@@ -26,7 +26,7 @@ for i in range(0, len(image_files), 3):
 
 
 # Dossier contenant les images JPEG
-image_dir = "images"
+image_dir = "Images"
 image_files = [f for f in os.listdir(image_dir) if f.lower().endswith((".jpg", ".jpeg"))]
 
 
