@@ -4,6 +4,15 @@ import os
 
 st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 
+# 🔐 2. Mot de passe
+PASSWORD = "clavi2024"
+password_input = st.text_input("🔐 Entrez le mot de passe :", type="password")
+
+if password_input != PASSWORD:
+    st.warning("Mot de passe incorrect 🚫")
+    st.stop()
+
+
 # === TITRE ===
 st.title("Singapour")
 st.subheader("🌍 Ma ville d’échange de août à décembre 2023")
