@@ -31,5 +31,6 @@ map_data = st_folium(m, width=1000, height=600)
 # Afficher un bouton de navigation vers la page Singapour si on clique sur la carte
 if map_data and map_data.get("last_object_clicked_tooltip"):
     clicked = map_data["last_object_clicked_tooltip"]
+    st.write(f"Vous avez cliqué sur : {clicked}")
     if clicked == "Singapour":
         st.page_link("pages/01_Singapour.py", label="👉 Découvrir Singapour")
