@@ -2,16 +2,15 @@ import streamlit as st
 from streamlit.components.v1 import html
 import os
 
-st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
+# Configuration du mot de passe
+PASSWORD = "clavi2024"  # 🔒 tu peux le personnaliser
 
-# 🔐 2. Mot de passe
-PASSWORD = "clavi2024"
-password_input = st.text_input("🔐 Entrez le mot de passe :", type="password")
+# Demande de mot de passe
+password_input = st.text_input("🔐 Entrez le mot de passe pour accéder à l'app :", type="password")
 
 if password_input != PASSWORD:
-    st.warning("Mot de passe incorrect 🚫")
+    st.warning("Mot de passe incorrect ou manquant 🚫")
     st.stop()
-
 
 # === TITRE ===
 st.title("Singapour")
