@@ -147,10 +147,10 @@ st.markdown("---")
 
 
 # === MUSIQUE ===
-st.markdown("### 🎧 Ambiance musicale – Goodbyes de Post Malone")
+st.markdown("### 🎧 Ambiance musicale – Dancing Queen ABBA")
 
 html("""
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/ba7mB8oueCY"
+<iframe width="100%" height="315" src="https://www.youtube.com/watch?v=xFrGuyw1V8s"
 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 """, height=315)
 
