@@ -4,10 +4,10 @@ import os
 
 # === TITRE ===
 st.title("Singapour")
-st.subheader("🌍 Ma ville d’échange de août à décembre 2023")
+st.subheader("🌍 La ville où lion ne dort jamais")
 
 # === GALERIE DE PHOTOS EN GRILLE ===
-st.markdown("### 📸 Quelques images de l’aventure")
+st.markdown("### 📸 Quelques images")
 
 # Dossier contenant les images JPEG
 image_dir = "Images"
@@ -119,7 +119,36 @@ Ambiance plus chic, clientèle plus âgée
 
     
 with st.expander("🍸 Prendre un verre"):
-    st.write("Essayez le 'Smoke & Mirrors' pour la vue sur Marina Bay, ou un speakeasy caché dans Haji Lane.")
+    st.markdown("""
+**[LeVeL33](https://level33.com.sg/)** – 🍺 *Bar rooftop avec vue sur Marina Bay*  
+Situé au 33ᵉ étage, LeVeL33 est connu pour ses bières faites maison et sa super vue sur la ville.  
+🍻 Microbrasserie sur place, parfait pour tester des bières originales  
+🥘 Plats modernes avec des touches européennes  
+🕐 Ouvert tous les jours de 12h à 23h  
+👕 Tenue soignée mais pas besoin d’être en costume  
+📌 Pense à réserver si tu veux une place avec vue
+
+---
+
+**[Lantern](https://www.fullertonhotels.com/fullerton-bay-hotel-singapore/dining/restaurants-and-bars/lantern)** – 🌆 *Rooftop du Fullerton Bay Hotel*  
+Un endroit élégant pour boire un verre avec vue sur Marina Bay Sands.  
+🍹 Cocktails bien faits, ambiance détendue au début, plus animée le soir  
+🎧 DJ le week-end  
+🕐 Ouvert tous les jours à partir de 15h (jusqu’à 1h ou 2h selon les soirs)  
+👗 Tenue correcte recommandée  
+📌 Réservation conseillée pour les bonnes places
+
+---
+
+**[ATLAS](https://atlasbar.sg/)** – 🍸 *Bar art déco impressionnant à Bugis*  
+Un lieu unique avec une déco incroyable, parfait pour une soirée un peu spéciale.  
+🍸 Spécialiste du gin, énorme choix (plus de 1 000 références !)  
+🥂 Très bons cocktails dans une ambiance chic mais pas guindée  
+🕐 Fermé le dimanche, ouvert le reste de la semaine à partir de midi (15h le lundi)  
+👕 Tenue soignée demandée surtout le soir  
+📌 Réserver à l’avance est une bonne idée, surtout le week-end
+""")
+
 
 with st.expander("🍜 Restaurants"):
     st.write("Hawker Centers pour manger comme un roi à 3€. Maxwell Food Centre est un must.")
