@@ -147,12 +147,17 @@ st.markdown("---")
 
 
 # === MUSIQUE ===
-st.markdown("### 🎧 Ambiance musicale – Dancing Queen ABBA")
+st.markdown("### 🎧 Ambiance musicale – *Dancing Queen* d’ABBA")
 
 html("""
-<iframe width="100%" height="315" src="https://www.youtube.com/watch?v=xFrGuyw1V8s"
-frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="315" 
+src="https://www.youtube.com/embed/xFrGuyw1V8s" 
+title="Dancing Queen - ABBA" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 """, height=315)
+
 
 
 # === RETOUR À LA CARTE ===
