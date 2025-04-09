@@ -15,30 +15,31 @@ import folium
 with st.expander("🍳 Les meilleurs Brunch de la ville"):
 
     st.markdown("""
-**[Atelier Septembre](https://cafeatelierseptember.com/)** – 🎡 L'un des meilleurs brunch de Copenhague - 🍳 Brunch à Copenhague
-📍 Situé dans le quartier de Nørrebro, super central et facile d’accès
-🥑 Carte canon : avocado toast, shakshuka, pancakes… tout est fait maison
-💸 Prix doux pour CPH – plats entre 90 et 150 DKK
-🎶 Petite touche de musique électronique chill en fond, ambiance locale & décontractée
-👩‍🎓 Spot apprécié des jeunes & étudiants – parfait pour un dimanche tranquille entre potes
+**[Atelier Septembre](https://cafeatelierseptember.com/)** – 🎡 L'un des meilleurs brunch de Copenhague  
+🍳 Brunch à Copenhague  
+📍 Situé dans le quartier de Nørrebro, super central et facile d’accès  
+🥑 Carte canon : avocado toast, shakshuka, pancakes… tout est fait maison  
+💸 Prix doux pour CPH – plats entre 90 et 150 DKK  
+🎶 Petite touche de musique électronique chill en fond, ambiance locale & décontractée  
+👩‍🎓 Spot apprécié des jeunes & étudiants – parfait pour un dimanche tranquille entre potes  
 
 ---
 
-**[Det Vide Hus](https://www.tripadvisor.fr/Restaurant_Review-g189541-d6974756-Reviews-Cafe_Det_Vide_Hus-Copenhagen_Zealand.html)** - 🍽 Brunch à Copenhague
-📍 Niché dans Vesterbro, un coin cool et arty
-🍳 Cuisine créative & locale : brunch nordique revisité, pain maison, œufs bio, etc.
-💸 Un peu plus haut de gamme – compte 150 à 200 DKK par personne
-🌿 Déco épurée, vibe scandi-minimaliste, parfait pour les brunchs posés
-🎶 Ambiance calme, pas de musique forte, juste le bruit des fourchettes et du café qui coule ☕
+**[Det Vide Hus](https://www.tripadvisor.fr/Restaurant_Review-g189541-d6974756-Reviews-Cafe_Det_Vide_Hus-Copenhagen_Zealand.html)** – 🍽 Brunch à Copenhague  
+📍 Niché dans Vesterbro, un coin cool et arty  
+🍳 Cuisine créative & locale : brunch nordique revisité, pain maison, œufs bio, etc.  
+💸 Un peu plus haut de gamme – compte 150 à 200 DKK par personne  
+🌿 Déco épurée, vibe scandi-minimaliste, parfait pour les brunchs posés  
+🎶 Ambiance calme, pas de musique forte, juste le bruit des fourchettes et du café qui coule ☕  
 
 ---
 
-**[Seks](https://www.sekscph.com/)** - 🍽 Brunch à Copenhague
-📍 En plein centre-ville, à deux pas de Strøget – super pratique
-🍳 Menu fusion scandi / latino : huevos rancheros, toasts colorés, options végé/végan
-💸 Très raisonnable pour l’emplacement – entre 80 et 140 DKK le plat
-🎨 Ambiance arty & cozy, murs colorés et staff super friendly
-🎶 Petit fond de musique chill, parfait pour un brunch détente ou un café solo
+**[Seks](https://www.sekscph.com/)** – 🍽 Brunch à Copenhague  
+📍 En plein centre-ville, à deux pas de Strøget – super pratique  
+🍳 Menu fusion scandi / latino : huevos rancheros, toasts colorés, options végé/végan  
+💸 Très raisonnable pour l’emplacement – entre 80 et 140 DKK le plat  
+🎨 Ambiance arty & cozy, murs colorés et staff super friendly  
+🎶 Petit fond de musique chill, parfait pour un brunch détente ou un café solo  
     """)
 
 # === MINI CARTE INTERACTIVE ===
