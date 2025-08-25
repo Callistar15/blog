@@ -5,7 +5,7 @@ from streamlit_folium import st_folium
 st.set_page_config(layout="wide")
 
 
-st.title("Mon carnet")
+st.title("Mon carnet de voyage")
 
 st.markdown("### Clique sur un lieu pour explorer")
 import streamlit as st
