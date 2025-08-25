@@ -5,9 +5,12 @@ from streamlit_folium import st_folium
 st.set_page_config(layout="wide")
 
 
-st.title("🧳✈️ Mon carnet de voyage")
+st.title("Mon carnet")
 
 st.markdown("### Clique sur un lieu pour explorer")
+import streamlit as st
+
+st.write("🚀 Test update depuis GitHub")
 
 # Lieux à afficher
 destinations = {
